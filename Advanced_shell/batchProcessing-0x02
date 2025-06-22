@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POKEMON_LIST=(pikachu bulbasaur charmander squirtle) # Example list; replace or read from file as needed
+POKEMON_LIST=(bulbasaur ivysaur venusaur charmander charmeleon)
 ERROR_FILE="errors.txt"
 
 for name in "${POKEMON_LIST[@]}"; do
